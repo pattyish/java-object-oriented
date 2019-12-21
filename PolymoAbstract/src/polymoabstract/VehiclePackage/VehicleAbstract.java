@@ -11,12 +11,12 @@ public abstract class VehicleAbstract {
       this.vehicleType = vehicleType;
       this.HasEngine = HasEngine; 
     }
-    public void  start(String vehicleType){
+    public void start(String vehicleType){
         if ( vehicleType == "bike"){
             this.HasEngine = false;
         }
     }
     public abstract void stop();   
     public abstract void setSeat(Seat seat);
-     public abstract Seat getSeat();
+    public abstract Seat getSeat();
 }
