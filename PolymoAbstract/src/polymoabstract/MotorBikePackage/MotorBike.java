@@ -39,6 +39,8 @@ public class MotorBike extends VehicleAbstract {
         System.out.println("manufacture Name: " + this.manufactureName);
         System.out.println("vehicle type: " + this.vehicleType);
         System.out.println("Does it have engine?: " + this.HasEngine);
+        System.out.println("seat id= : " + this.getSeat().seatId);
+        System.out.println("seat color= : " + this.getSeat().seatColor);
         System.out.println("-------------------------------");
     }
 }
